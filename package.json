@@ -1,0 +1,24 @@
+{
+  "name": "schedulix-workspace",
+  "version": "1.0.0",
+  "description": "Schedulix - Intelligent Academic Timetable Management System",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "timetable",
+    "scheduling",
+    "mern",
+    "security",
+    "csp-solver"
+  ],
+  "author": "M.Sc. DFIS",
+  "license": "ISC"
+}
